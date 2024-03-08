@@ -1,0 +1,10 @@
+section {
+    height: 100%;
+    width: 100%;
+    display:inline-block;
+    background:red;
+  }
+  *{
+    padding:0px;
+    margin:0px;
+  }
