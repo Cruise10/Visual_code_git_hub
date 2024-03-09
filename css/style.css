@@ -2,25 +2,25 @@ main {
   width: 100%;
    }
 
-    section {
-    background-color: powderblue;
-    transition: background-color 0.5s;
-   }
-
    .full-width-1:hover{
     background-color:  black;
     color: white;
    }
-  
-   .full-width-1{
-    background-color:  black;
-    color: white;
-   }
 
-   
-   .w3-half, .w3-container, .w3-hover-green:hover {
+   section:hover {
     background-color:  black;
     color: white;
+  }
+
+section.full-width-1 
+    {
+        width: 100%;
+     /*  max-width: 1024px;*/
+        margin: 10 auto;
+        padding: 40px;
+        color: #020202;
+        background-color: rgb(37, 228, 12);
+        border: white 1px solid;
     }
     
     /*iNICIO DEL CSS PARA LA CELDA 2*/
@@ -238,46 +238,7 @@ main {
     }
     /*FIN DEL CSS PARA LA ULTIMA PARTE*/
 
-  section:hover {
-    background-color:  black;
-    color: white;
-  }
-
-  .w3-half, .w3-container, .w3-hover-green:hover {
-    color: #6dc5d4 !important;
-    background-color: #4CAF50!important;
-}
-
-.w3-container2{
-    color: #c4b20f !important;
-/*    margin-left: 2px;*/
-    background-color: #853d88!important;
-    
-}
-
-section.full-width-1 
-    {
-        width: 100%;
-     /*  max-width: 1024px;*/
-        margin: 10 auto;
-        padding: 20px;
-        color: #020202;
-        background-color: rgb(37, 228, 12);
-        border: white 5px solid;
-    }
-
-section.full-width 
-{
-    max-width: 100%;
-    padding: 0;
-    
-    div {
-        width: 100%;
-        max-width: 1024px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-}
+  
 /*section.full-width_4
 {
     max-width: 100%;
