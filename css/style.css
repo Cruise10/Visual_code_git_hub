@@ -1,0 +1,292 @@
+main {
+  width: 100%;
+   }
+
+    section {
+    background-color: powderblue;
+    transition: background-color 0.5s;
+   }
+
+   .full-width-1:hover{
+    background-color:  black;
+    color: white;
+   }
+  
+   .full-width-1{
+    background-color:  black;
+    color: white;
+   }
+
+   
+   .w3-half, .w3-container, .w3-hover-green:hover {
+    background-color:  black;
+    color: white;
+    }
+    
+    /*iNICIO DEL CSS PARA LA CELDA 2*/
+    
+    /* Estilos para el contenedor principal */
+    .contenedor-principal {
+        display: flex; /* Usar flexbox */
+        justify-content: space-between; /* Distribuir los elementos con espacio entre ellos */
+        background-color: transparent !important; /* Color de fondo opcional */
+        padding: 20px 0; /* Espaciado interno */
+        
+    }
+    /* Fin Estilos para el contenedor principal */
+
+    /* Estilos para los contenedores internos */
+    .contenedor-interno {
+        flex: 0 0 48%; /* Tamaño de los contenedores internos (puedes ajustar el valor según tus necesidades) */
+        padding: 40px; /* Espacio interno del contenedor */
+        border: 1px solid #cccccc00; /* Borde del contenedor */
+        box-sizing: border-box; /* Incluir el borde en el tamaño total */
+        background-color: #09a8e7; /*Color del fondo de los contenedores internos*/
+    }
+    /* Fin Estilos para los contenedores internos */
+
+    .contenedor-interno:hover{
+        background-color:  black !important;
+        color: white;
+    }
+
+    /*FIN DEL CSS PARA LA CELDA 2*/
+
+
+    /*INICIO DEL CSS PARA LA CELDA 3*/
+    /* Estilos para el contenedor principal */
+    .contenedor-principal-3 {
+        display: flex; /* Usar flexbox */
+        justify-content: space-between; /* Distribuir los elementos con espacio entre ellos */
+        width: 100%; /* Ancho completo */
+        background-color: transparent; /* Color de fondo opcional */
+        padding: 20px 0; /* Espaciado interno */
+    }
+
+    /* Estilos para los contenedores internos */
+    .contenedor-interno-3 {
+        flex: 0 0 calc(33.33% - 20px); /* Tamaño de los contenedores internos */
+        padding: 40px; /* Espacio interno del contenedor */
+        border: 1px solid #ccc; /* Borde del contenedor */
+        box-sizing: border-box; /* Incluir el borde en el tamaño total */
+        background-color: #b95b5b;
+    }
+
+    .contenedor-interno-3:hover{
+        background-color:  black !important;
+        color: white;
+    }
+    /*FIN DEL CSS PARA LA CELDA 3*/
+
+    /*INICIO DEL CSS PARA LA CELDA 4*/
+    /* Estilos para el contenedor principal */
+    .contenedor-principal-4 {
+        display: flex; /* Usar flexbox */
+        justify-content: space-between; /* Distribuir los elementos con espacio entre ellos */
+        width: 100%; /* Ancho completo */
+        background-color: transparent; /* Color de fondo opcional */
+        padding: 10px 0; /* Espaciado interno */
+    }
+
+    /* Estilos para los contenedores internos */
+    .contenedor-interno-4 {
+        flex: 0 0 calc(67.33% - 20px); /* Tamaño de los contenedores internos */
+        padding: 40px; /* Espacio interno del contenedor */
+        border: 1px solid #ccc; /* Borde del contenedor */
+        box-sizing: border-box; /* Incluir el borde en el tamaño total */
+        background-color: #d5f545; /*Color del contenedor*/
+    }
+
+    .contenedor-interno-42{
+        flex: 0 0 calc(33.33% - 20px); /* Tamaño de los contenedores internos */
+        padding: 40px; /* Espacio interno del contenedor */
+        border: 1px solid #ccc; /* Borde del contenedor */
+        box-sizing: border-box; /* Incluir el borde en el tamaño total */
+        background-color: #d5f545; /*Color del contenedor*/
+    }
+
+    .contenedor-interno-4:hover{
+        background-color:  black !important;
+        color: white;
+    }
+    .contenedor-interno-42:hover{
+        background-color:  black !important;
+        color: white;
+    }
+    /*FIN DEL CSS PARA LA CELDA 4*/
+
+    /*INICIO DEL CSS PARA LA CELDA 5*/
+    /* Estilos para el contenedor principal */
+    .contenedor-principal-5 {
+        width: 100%; /* Ancho completo */
+        background-color: transparent; /* Color de fondo opcional */
+        display: flex; /* Usar flexbox */
+        padding: 10px 0; /* Espaciado interno */
+    }
+
+    /* Estilos para los contenedores secundarios */
+    .contenedor-secundario-5 {
+        flex: 1; /* Que ocupen el espacio disponible */
+        padding: 40px 0; /* Espaciado interno del contenedor */
+        border: 1px solid #ccc; /* Borde del contenedor */
+        box-sizing: border-box; /* Incluir el borde en el tamaño total */
+        margin-right: 10px; /* Espacio a la derecha entre contenedores */
+        background-color: #ff8000 ; /*Color del contenedor*/
+    }
+
+    /* Estilo para evitar margen a la derecha en el último contenedor */
+    .contenedor-secundario-5:last-child {
+        margin-right: 0;
+    }
+    /* Efecto para colocar el fondo negro*/
+    .contenedor-secundario-5:hover{
+        background-color:  black !important;
+        color: white;
+    }
+
+    /*FIN DEL CSS PARA LA CELDA 5*/
+
+    /*INICIO DEL CSS PARA LA CELDA 6*/
+       /* Estilos para el contenedor principal */
+    .contenedor-principal-6 {
+        width: 100%; /* Ancho completo */
+        background-color: transparent; /* Color de fondo opcional */
+        display: flex; /* Usar flexbox */
+        padding: 10px 0; /* Espaciado interno */
+    }
+
+    /* Estilos para el primer contenedor secundario */
+    .contenedor-primero-6 {
+        flex: 3; /* Ocupa 3/4 del ancho */
+        padding: 40px 0; /* Espaciado interno del contenedor */
+        border: 1px solid #ccc; /* Borde del contenedor */
+        box-sizing: border-box; /* Incluir el borde en el tamaño total */
+        margin-right: 10px; /* Espacio a la derecha */
+        background-color: #4c2882 ; /*Color del contenedor*/
+    }
+
+    /* Estilos para el segundo contenedor secundario */
+    .contenedor-segundo-6 {
+        flex: 1; /* Ocupa 1/4 del ancho */
+        padding: 40px 0; /* Espaciado interno del contenedor */
+        border: 1px solid #ccc; /* Borde del contenedor */
+        box-sizing: border-box; /* Incluir el borde en el tamaño total */
+        background-color: #4c2882 ; /*Color del contenedor*/ 
+    }
+    
+    .contenedor-primero-6:hover{
+        background-color:  black !important;
+        color: white;
+    }
+    .contenedor-segundo-6:hover{
+        background-color:  black !important;
+        color: white;
+    }
+    /*FIN DEL CSS PARA LA CELDA 6*/
+
+    /*INICIO DEL CSS PARA LA ULTIMA PARTE*/
+    /* Estilos para el contenedor principal */
+    .contenedor-principal-7{
+        width: 100%; /* Ancho completo */
+        background-color: transparent; /* Color de fondo opcional */
+        display: flex; /* Usar flexbox */
+        padding: 10px 0; /* Espaciado interno */
+    }
+
+    /* Estilos para el primer contenedor secundario */
+    .contenedor-primero-7 {
+        flex: 1; /* Ocupa 1 columna */
+        padding: 20px; /* Espaciado interno del contenedor */
+        border: 1px solid #ccc; /* Borde del contenedor */
+        box-sizing: border-box; /* Incluir el borde en el tamaño total */
+        margin-right: 10px; /* Espacio a la derecha */
+        background-color: #C2C2C2; /*Color del contenedor*/
+    }
+
+    /* Estilos para el segundo contenedor secundario */
+    .contenedor-segundo-7 {
+        flex: 10; /* Ocupa 10 columnas */
+        padding: 20px; /* Espaciado interno del contenedor */
+        border: 1px solid transparent; /* Borde del contenedor */
+        box-sizing: border-box; /* Incluir el borde en el tamaño total */
+        margin-right: 10px; /* Espacio a la derecha */
+        background-color: #C2C2C2; /*Color del contenedor*/
+    }
+
+    /* Estilos para el tercer contenedor secundario */
+    .contenedor-tercero-7 {
+        flex: 1; /* Ocupa 1 columna */
+        padding: 20px; /* Espaciado interno del contenedor */
+        border: 1px solid #ccc; /* Borde del contenedor */
+        box-sizing: border-box; /* Incluir el borde en el tamaño total */
+        background-color: #C2C2C2; /*Color del contenedor*/
+    }
+
+    .contenedor-primero-7:hover
+    {
+        background-color:  black !important;
+        color: white;
+    }
+    .contenedor-segundo-7:hover {
+        background-color:  black !important;
+        color: white;
+    }
+
+    .contenedor-tercero-7:hover{
+        background-color:  black !important;
+        color: white;
+    }
+    /*FIN DEL CSS PARA LA ULTIMA PARTE*/
+
+  section:hover {
+    background-color:  black;
+    color: white;
+  }
+
+  .w3-half, .w3-container, .w3-hover-green:hover {
+    color: #6dc5d4 !important;
+    background-color: #4CAF50!important;
+}
+
+.w3-container2{
+    color: #c4b20f !important;
+/*    margin-left: 2px;*/
+    background-color: #853d88!important;
+    
+}
+
+section.full-width-1 
+    {
+        width: 100%;
+     /*  max-width: 1024px;*/
+        margin: 10 auto;
+        padding: 20px;
+        color: #020202;
+        background-color: rgb(37, 228, 12);
+        border: white 5px solid;
+    }
+
+section.full-width 
+{
+    max-width: 100%;
+    padding: 0;
+    
+    div {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
+/*section.full-width_4
+{
+    max-width: 100%;
+    padding: 0;
+    background-color: black;
+    > div {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}*/
